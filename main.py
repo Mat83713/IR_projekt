@@ -65,7 +65,7 @@ def plot_data_adph():
     plt.rc('grid', linestyle="-", color='black')
     plt.scatter(x, y)
     plt.xticks(np.arange(0, max(x) + 10, 60))
-    plt.title("Peak Telecom Traffic Hour", fontdict={'family': 'serif', 'color': 'darkred', 'size': 16, })
+    plt.title("Peak Telecom 01 Traffic Hour", fontdict={'family': 'serif', 'color': 'darkred', 'size': 16, })
     plt.xlabel("Time (min)")
     plt.ylabel("Call Counts (N)")
     plt.grid()
